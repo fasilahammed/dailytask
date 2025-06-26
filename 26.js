@@ -20,8 +20,9 @@ console.log(output);
 
 ////////////////////////////////////////
 
-// output=students.reduce((x,y)=> (x.score3)),0
-// console.log(output);
+let sumScore=students.reduce((sum,y)=> sum +Number(y.score),0)
+let averageScore = sumScore / students.length;
+console.log(averageScore);
 
 ////////////////////////////////////////
 function grade(score) {
