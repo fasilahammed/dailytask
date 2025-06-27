@@ -17,3 +17,10 @@ let cube= function(x) {
     return x**3
 }
 console.log(cube(4));
+
+
+
+//////////////////////////////
+(function (x) {
+    console.log(x**2)
+}) (5);
