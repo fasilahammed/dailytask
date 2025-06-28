@@ -24,3 +24,4 @@ console.log(cube(4));
 (function (x) {
     console.log(x**2)
 }) (5);
+
