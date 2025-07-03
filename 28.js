@@ -4,7 +4,7 @@ let person={
     age :21,
     getFullName:function(){
         return this.fistName+" "+this.lastName
-         
+
     },
 
     celebrateBirthday:function(){
