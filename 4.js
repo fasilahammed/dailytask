@@ -8,6 +8,13 @@ function shdw() {
     console.log(a);////legal
     console.log(b);///ilegal
     
+    try{
+    console.log(c) //////its a catch error
+    }catch(error){
+        console.log("this value not declared");
+        
+    }
+    
     
 }
 shdw()
