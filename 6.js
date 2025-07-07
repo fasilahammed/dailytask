@@ -22,8 +22,15 @@ const plainProduct = {
   name: "pant",
   price: 400,
   displayInfo: function () {
-    console.log(`product name is ${this.name} and its price is ${this.price}`);
+    console.log(`product name is ${this.name} and its price ${this.price}`);
   }
 }
 
+plainProduct.displayInfo()
 
+
+console.log(typeof p1);      
+console.log(p1 instanceof product); 
+
+console.log(typeof plainProduct);   
+console.log(plainProduct instanceof product);
